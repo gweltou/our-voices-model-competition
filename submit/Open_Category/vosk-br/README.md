@@ -192,7 +192,7 @@ We then divide the test dataset by gender with the script `split_by_gender.py`
     $ python3 split_by_gender common_voice/test
 
 This script creates a folder named `gender_splitted` where the dataset will be divided in two subsets for male and female speakers, with audio files and text transcriptions.  
-Although we can see that the scores varies between the 4 tested models, with a slight advantage form male speakers, it is not by a big margin. The difference is less than 1% for `MCV11_big-corpus`, which is the best overall model of the batch. We also have to consider that there was not a single female speaker in the training data.
+The scores varies between the 4 tested models, with a significant advantage form male speakers overall. The difference is less than 1% for `MCV11_big-corpus` though, which is the best overall model of the batch. Those results should be interpreted considering that there was **not a single female speaker in the training data**.
 
 
 ### Results
